@@ -1,0 +1,12 @@
+tvShow = input("What is your favorite show?")
+if tvShow == "Game of Thrones":
+    print("Nice you have good taste ")
+    character = input("Who is your favoriate character?")
+    if character == "Arya":
+        print("Ah a classic")
+    elif character == "Sansa":
+        print("interesting")
+    else:
+        print("I see")
+elif tvShow == "The Walking Dead":
+    print("Boo hoo")
