@@ -1,0 +1,5 @@
+username = input ("Hello player, Welcome back to the game. Please enter your username:")
+if username == "Rena" or username == "rena" or username == "Basil" or username == "basil":
+  print("Welcome back, Let's get started!")
+else:
+  print("Invalid username, Please make an account")
