@@ -1,0 +1,13 @@
+generation = int(input("Enter the year you are born:"))
+if generation >= 1996 and generation <= 2015: 
+  print ("Hello Gen Z")
+elif generation >= 1982 and generation <=1995: 
+  print("Millenials in the house")
+elif generation >= 1965 and generation <=1981:
+    print ("Generation X , you're like my parents age, does that make you feel old? Good, it should.")
+elif generation >= 1947 and generation <=1964:
+  print("Damn I would hate to be born in your generation, literally worst time to be alive. ")
+elif generation >= 1925 and generation <=1946:
+  print("How are you still alive? What is the secret to life? Give me the wisdome of life plz")
+else: 
+  print ("You are too young to be here, go away little kid, go play with some balls")
