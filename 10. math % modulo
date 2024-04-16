@@ -38,3 +38,34 @@ print(modulo)
 # whole number division : closest whole number 
 divisor = 15 // 2 = 7 
 print(divisor)
+
+# multiplication
+multiplication = 3.4 * 6.8
+print(multiplication)
+
+# division
+division = 2467 / 4673
+print(division)
+
+#raise 10 to the power of 2
+
+power = 10 ** 2 
+print(power)
+
+# print the remainder when 343 is divided by 4
+remainder = 343 % 4 
+print(remainder)
+--------------------------------------------------
+myBill = float(input("What was the bill?: "))
+numberOfPeople = int(input("How many people?: "))
+answer = myBill / numberOfPeople
+print("You all owe", answer)
+
+answer = round(answer,2)
+---------------------------------------------------
+totalBill = float(input("What was the total bill?"))
+tip = int(input("How much % do you want to tip?"))
+tipAndBill = totalBill * (1 + (int(tip/100)))
+people = int(input("How many people were there?"))
+perPerson = round ( tipAndBill/people,2)
+print("Each person should pay", perPerson)
