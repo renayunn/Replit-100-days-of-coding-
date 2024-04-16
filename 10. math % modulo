@@ -1,0 +1,40 @@
+adding = 4 + 3
+print(adding)
+
+subtraction = 8 - 9
+print(subtraction)
+
+multiplication = 4 * 32
+print(multiplication)
+
+division = 50 / 5
+print(division)
+
+# a number raised to the power of some number
+# in this example we raise 5 to the power of 2
+squared = 5**2
+print(squared)
+
+basil says he does this to figure out if a number is even or odd. 
+# remainder of a division
+modulo = 15 % 4
+print(modulo)
+
+  ok = 16 % 4 =0
+  print(ok)
+  
+  cool = 17 % 4=1
+  print(cool)
+  
+  wow = 18 % 4 =2
+  print(wow)
+  
+  lol = 19 % 4 =3
+  print(lol)
+  
+  oh = 20 % 4 =0
+  print(oh)
+
+# whole number division : closest whole number 
+divisor = 15 // 2 = 7 
+print(divisor)
