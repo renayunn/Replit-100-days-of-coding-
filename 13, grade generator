@@ -1,0 +1,20 @@
+input("What test are you taking?")
+maxScore = int(input("What is the maximum score you can get?"))
+yourScore = int(input("What score did you get?"))
+
+percentage = (yourScore / maxScore) * 100 
+
+percentage = round( percentage, 2)
+
+if percentage >= 90:
+  print("A+")
+elif percentage >= 80:
+  print ("A")
+elif percentage >= 70:
+  print("B")
+elif percentage >= 60:
+  print("C")
+elif percentage >= 50:
+  print("D")
+elif percentage <= 50:
+  print("U")
