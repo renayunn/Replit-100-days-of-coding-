@@ -1,0 +1,35 @@
+from getpass import getpass as input
+print("가위바위보!")
+print("Select your move (R,P, or S)")
+
+p_1 = input("Player 1 >")
+
+p_2 = input("Player 2 >")
+
+if p_1 == "R" : 
+  if p_2 == "R" : 
+    print ( "both picked Rock, try again!")
+  elif p_2 == "P":
+    print ("Player 2 wins ")
+  elif p_2 == "S":
+    print("Player 1 wins")
+  else:
+    print("invalid input, please try again")
+elif p_1 == "S" :
+  if p_2 == "R" :
+    print (" Player 1 wins")
+  elif p_2 == "P":
+    print ("Player 1 wins")
+  elif p_2 == "S":
+    print("both picked scissors, try again")
+  else:
+    print("invalid input, please try again")
+elif p_1 == "P":
+  if p_2 == "P":
+    print("both picked paper, try again")
+  elif p_2 == "R":
+    print("player 2 wins")
+  elif p_2 == "S":
+    print("player 1 wins")
+  else:
+    print("invalid input, please try again")
